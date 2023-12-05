@@ -1,0 +1,55 @@
+header
+{
+    z-index: 9999;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    background-color:brown;
+}
+footer
+{
+    z-index: 9999;
+    text-align: center;
+    line-height: 10vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    background-color: brown;
+}
+#contentArea
+{
+    text-align: center;
+    position: fixed;
+    top: 10vh;
+    bottom: 10vh;
+    left:0;
+    right: 0;
+    overflow-y: auto;
+}
+h1
+{
+    text-align: center;
+    font-size: 5vh;
+    line-height: 10vh;
+}
+.produto
+{
+    display: inline-block;
+    width: 15vw;
+    vertical-align: top;
+}
+.produto img
+{
+    width: 15vw;
+}
+
+.intro img
+{
+    display: inline-block;
+    width: 15vw;
+    vertical-align: top;
+}
